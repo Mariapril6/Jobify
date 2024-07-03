@@ -15,13 +15,11 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            I'm baby af fixie grailed, fingerstache sustainable food truck vape
-            lo-fi. Vice paleo +1 ennui shaman portland tonx jianbing disrupt
-            organic kombucha raclette listicle. Biodiesel gastropub literally
-            same hoodie tilde. Tilde etsy four dollar toast gentrify,
-            asymmetrical cliche prism mumblecore. Shabby chic scenester truffaut
-            tacos. Gorpcore deep v ramps fixie synth. Mixtape adaptogen mukbang
-            tacos man bun mlkshk.
+            Confused as to where you applied? And what is the status of your job
+            applications? Cannot keep a track of all your job applications? This
+            is your perfect solution to track down all your job applications,
+            their status, their details. Jobify! Simplifying your job search
+            process!
           </p>
           <Link to="/register" className="btn register-link">
             Register

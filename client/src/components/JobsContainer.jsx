@@ -2,10 +2,9 @@ import Job from "./Job";
 import Wrapper from "../assets/wrappers/JobsContainer";
 import { useAllJobsContext } from "../pages/AllJobs";
 import PageBtnContainer from "./PageBtnContainer";
-
 const JobsContainer = () => {
   const { data } = useAllJobsContext();
-  console.log(data);
+
   const { jobs, totalJobs, numOfPages } = data;
   if (jobs.length === 0) {
     return (
@@ -14,7 +13,6 @@ const JobsContainer = () => {
       </Wrapper>
     );
   }
-
   return (
     <Wrapper>
       <h5>

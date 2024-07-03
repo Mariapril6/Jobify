@@ -18,7 +18,7 @@ import { checkForTestUser } from "../middleware/authMiddleware.js";
 // router.post('/', createJob);
 
 router
-  .route("/jobs/")
+  .route("/")
   .get(getAllJobs)
   .post(checkForTestUser, validateJobInput, createJob);
 
